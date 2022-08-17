@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: nginx
+        image: 269561696299.dkr.ecr.us-east-1.amazonaws.com/incubator/test
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
